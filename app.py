@@ -2,8 +2,9 @@ from flask import Flask
 import config
 from blueprints.qa import qa
 from blueprints.auth import bp
-# from models import User
+from models import User
 from exts import db
+from flask_migrate import Migrate
 
 
 app = Flask(__name__)
@@ -12,7 +13,8 @@ app = Flask(__name__)
 app.config.from_object(config)
 
 
-# db.init_app(app)
+db.init_app(app)
+migrate = Migrate(app,db)
 app.register_blueprint(qa)
 app.register_blueprint(bp)
 
@@ -23,4 +25,4 @@ def hello_world():  # put application's code here
 
 # 蓝图  电影模块，音乐模块，读书模块
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5010)
+    app.run(host='0.0.0.0', port=5010,debug=True)
