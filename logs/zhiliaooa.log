@@ -179,3 +179,6 @@
 2023-02-24 19:17:11.803 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
 2023-02-24 19:17:25.691 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
 2023-02-24 19:17:28.603 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 19:18:55.121 INFO | [Thread-2] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 19:18:58.400 INFO | [Thread-8] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 19:19:03.940 INFO | [Thread-12] zhiliaooa [44] | auth.py get_email_captcha  Sent email: 1794748404@qq.com and  captcha : 7248 
