@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block head %}
+    <script src="{{ url_for('static',filename='jquery/jquery.3.6.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/register.js') }}"></script>
+{% endblock %}
+
 {% block title %}
     知了问答平台-注册
 {% endblock %}
@@ -12,17 +17,22 @@
                 <form method="POST" action="#">
                     <div class="form-group">
                         <label for="exampleInputEmail1">邮箱</label>
+
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                                name="email">
+
                         <small id="emailHelp" class="form-text text-muted">我们不会把邮箱用于其他用户</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">验证码</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="captcha">
+
                             <div class="input-group-append">
+
                                 <button class="btn btn-outline-secondary" type="button" id="captcha-btn">获取验证码
                                 </button>
+
                             </div>
                         </div>
                     </div>

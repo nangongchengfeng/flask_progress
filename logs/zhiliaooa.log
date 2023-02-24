@@ -161,3 +161,21 @@
 2023-02-24 18:35:36.712 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
 2023-02-24 18:36:19.757 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
 2023-02-24 18:36:20.092 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 18:43:38.971 INFO | [Thread-2] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 18:47:51.966 INFO | [Thread-8] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 18:51:03.739 INFO | [Thread-12] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 18:55:41.263 INFO | [Thread-17] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 18:55:47.440 INFO | [Thread-22] zhiliaooa [44] | auth.py get_email_captcha  Sent email: 1794748404@qq.com and  captcha : 2414 
+2023-02-24 18:55:47.659 INFO | [Thread-23] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 18:56:02.455 INFO | [Thread-31] zhiliaooa [44] | auth.py get_email_captcha  Sent email: huiyou.huang@fujfu.onaliyun.com and  captcha : 2138 
+2023-02-24 18:58:07.352 INFO | [Thread-33] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 18:58:12.893 INFO | [Thread-38] zhiliaooa [44] | auth.py get_email_captcha  Sent email: huiyou.huang@fujfu.onaliyun.com and  captcha : 2478 
+2023-02-24 18:58:35.330 INFO | [Thread-39] zhiliaooa [44] | auth.py get_email_captcha  Sent email: 1794748404@qq.com and  captcha : 5463 
+2023-02-24 19:04:55.299 INFO | [Thread-41] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 19:12:16.921 INFO | [Thread-46] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 19:13:03.304 INFO | [Thread-51] zhiliaooa [29] | auth.py register  Registering
+2023-02-24 19:13:08.838 INFO | [Thread-56] zhiliaooa [44] | auth.py get_email_captcha  Sent email: 1794748404@qq.com and  captcha : 9760 
+2023-02-24 19:17:11.449 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 19:17:11.803 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 19:17:25.691 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 19:17:28.603 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
