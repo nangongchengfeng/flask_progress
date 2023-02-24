@@ -17,3 +17,12 @@ DATABASE = "zhiliaooa"
 
 DB_URI = f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOSTNAME}:{PORT}/{DATABASE}?charset=utf8mb4"
 SQLALCHEMY_DATABASE_URI=DB_URI
+
+#邮箱地址
+MAIL_SERVER = 'smtp.qq.com'
+MAIL_PROT = 25
+MAIL_USE_TLS = True
+MAIL_USE_SSL = False
+MAIL_USERNAME = "@qq.com"
+MAIL_PASSWORD = ""
+MAIL_DEBUG = True

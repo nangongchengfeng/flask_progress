@@ -6,5 +6,6 @@
 # @Software: PyCharm
 # 解决循环运用
 from flask_sqlalchemy import SQLAlchemy
-
+from flask_mail import Mail
 db = SQLAlchemy()
+mail=Mail()

@@ -1,1 +1,5 @@
+alembic==1.9.4
 Flask==2.2.3
+Flask_Migrate==4.0.4
+flask_sqlalchemy==3.0.3
+SQLAlchemy==2.0.4

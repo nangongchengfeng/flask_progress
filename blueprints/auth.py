@@ -5,6 +5,8 @@
 # @File    : auth.py
 # @Software: PyCharm
 from flask import Blueprint, render_template
+from exts import mail
+from flask_mail import Message
 
 bp = Blueprint("auth", __name__, url_prefix="/auth")
 
@@ -15,8 +17,13 @@ def login():
     pass
 
 
-
 @bp.route("/register")
 def register():
-
     return render_template("register.html")
+
+
+@bp.route("/mail/test")
+def mail_test():
+    message = Message(subject="Test",sender='3063254779@qq.com', recipients=["1794748404@qq.com"], body="Test message")
+    mail.send(message)
+    return "发送成功"
