@@ -9,7 +9,8 @@ import os
 
 # 列出项目使用的依赖
 def export_package():
-    os.system("pipreqs ./ --encoding='utf-8' --force")
+    # os.system("pipreqs ./ --encoding='utf-8' --force")
+    os.system("pip freeze > requirements.txt")
 
 
 # 安装项目使用的依赖

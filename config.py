@@ -5,6 +5,8 @@
 # @File    : config.py
 # @Software: PyCharm
 # MySQL所在的主机名
+from apollo_config import MAIL_USERNAME, MAIL_PASSWORD
+
 HOSTNAME = "192.168.102.20"
 # MySQL监听的端口号，默认3306
 PORT = 3306
@@ -23,6 +25,6 @@ MAIL_SERVER = 'smtp.qq.com'
 MAIL_PROT = 25
 MAIL_USE_TLS = True
 MAIL_USE_SSL = False
-MAIL_USERNAME = "@qq.com"
-MAIL_PASSWORD = ""
+MAIL_USERNAME = MAIL_USERNAME
+MAIL_PASSWORD = MAIL_PASSWORD
 MAIL_DEBUG = True
