@@ -1,0 +1,15 @@
+2023-02-24 14:02:09,970 app.py[line:34] INFO 我打印了一个日志输出
+2023-02-24 14:02:09,971 app.py[line:35] INFO 项目已经启动
+2023-02-24 14:05:05.679 INFO | [MainThread] zhiliaooa [34] | app.py <module>
+2023-02-24 14:05:05.679 INFO | [MainThread] zhiliaooa [35] | app.py <module>
+2023-02-24 14:05:07.567 INFO | [MainThread] zhiliaooa [34] | app.py <module>
+2023-02-24 14:05:07.567 INFO | [MainThread] zhiliaooa [35] | app.py <module>
+2023-02-24 14:05:16.642 INFO | [Thread-2] zhiliaooa [24] | auth.py register
+2023-02-24 14:06:11.818 INFO | [MainThread] zhiliaooa [34] | app.py <module>  我打印了一个日志输出
+2023-02-24 14:06:11.819 INFO | [MainThread] zhiliaooa [35] | app.py <module>  项目已经启动
+2023-02-24 14:07:01.774 INFO | [MainThread] zhiliaooa [34] | app.py <module>  我打印了一个日志输出
+2023-02-24 14:07:01.775 INFO | [MainThread] zhiliaooa [35] | app.py <module>  项目已经启动
+2023-02-24 14:07:03.646 INFO | [MainThread] zhiliaooa [34] | app.py <module>  我打印了一个日志输出
+2023-02-24 14:07:03.647 INFO | [MainThread] zhiliaooa [35] | app.py <module>  项目已经启动
+2023-02-24 14:08:18.352 INFO | [MainThread] zhiliaooa [34] | app.py <module>  我打印了一个日志输出
+2023-02-24 14:08:18.352 INFO | [MainThread] zhiliaooa [35] | app.py <module>  项目已经启动

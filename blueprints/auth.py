@@ -7,6 +7,8 @@
 from flask import Blueprint, render_template
 from exts import mail
 from flask_mail import Message
+from flask import Flask, current_app
+from tool.LogHandler import log
 
 bp = Blueprint("auth", __name__, url_prefix="/auth")
 
@@ -19,6 +21,7 @@ def login():
 
 @bp.route("/register")
 def register():
+    log.info("Registering")
     return render_template("register.html")
 
 

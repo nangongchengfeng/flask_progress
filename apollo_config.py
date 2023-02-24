@@ -22,3 +22,5 @@ USERNAME = client.get_value('USERNAME')
 PASSWORD = client.get_value('PASSWORD')
 DATABASE = client.get_value('DATABASE')
 
+
+project_name= client.get_value('project_name')
