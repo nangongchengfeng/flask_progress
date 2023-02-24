@@ -44,9 +44,11 @@ def register():
             user = UserModel(email=email, username=username, password=generate_password_hash(password))
             db.session.add(user)
             db.session.commit()
+            log.info(f"用户： {username}  邮箱地址： {password} 已经注册成功")
             return redirect(url_for("auth.login"))
         else:
             print(form.errors)
+            log.info(f"用户注册验证不通过，即将返回注册页面")
             return redirect(url_for("auth.register"))
 
 
@@ -63,6 +65,7 @@ def get_email_captcha():
     message = Message(subject="乘风平台验证码", sender='3063254779@qq.com', recipients=[email],
                       body=f"您的验证码是: {captcha}")
     mail.send(message)
+
     log.info("Sent email: {} and  captcha : {} ".format(email, captcha))
     emailcaptcha = EmailCaptchaModel(email=email, captcha=captcha)
     db.session.add(emailcaptcha)

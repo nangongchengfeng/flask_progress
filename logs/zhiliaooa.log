@@ -299,3 +299,16 @@
 2023-02-24 23:27:35.439 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
 2023-02-24 23:27:38.617 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
 2023-02-24 23:27:38.926 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 23:30:13.595 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 23:30:13.903 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 23:34:08.578 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 23:34:08.854 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 23:34:20.390 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 23:34:20.664 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 23:35:39.545 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 23:35:39.838 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 23:36:14.118 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载apollo的环境变量配置
+2023-02-24 23:36:14.389 INFO | [MainThread] zhiliaooa [33] | app.py <module>  项目已经启动
+2023-02-24 23:36:21.690 INFO | [Thread-2] zhiliaooa [33] | auth.py register  Registering
+2023-02-24 23:36:34.287 INFO | [Thread-3] zhiliaooa [51] | auth.py register  用户注册验证不通过，即将返回注册页面
+2023-02-24 23:36:34.325 INFO | [Thread-4] zhiliaooa [33] | auth.py register  Registering
