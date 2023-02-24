@@ -5,7 +5,7 @@ import os
 import logging
 
 from logging.handlers import TimedRotatingFileHandler
-from apollo_config import project_name
+from config.apollo_config import project_name
 # 日志级别
 CRITICAL = 50
 FATAL = CRITICAL

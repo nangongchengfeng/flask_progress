@@ -1,12 +1,12 @@
 from flask import Flask
-import config
+from config import config
 from blueprints.qa import qa
 from blueprints.auth import bp
 
 from exts import db, mail
 from flask_migrate import Migrate
 from tool.LogHandler import log
-from tool import LogHandler
+
 
 app = Flask(__name__)
 

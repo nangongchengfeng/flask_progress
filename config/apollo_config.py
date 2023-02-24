@@ -8,13 +8,14 @@ import os
 
 from pyapollos import ApolloClient
 
+APOLLO_CONFIG_URL = "config-server-dev.ownit.top"
 client = ApolloClient(app_id="zhiliaooa", cluster="default",
-                      config_server_url='http://' + os.environ.get('APOLLO_CONFIG_URL'))
+                      config_server_url='http://' + APOLLO_CONFIG_URL)
+# os.environ.get('APOLLO_CONFIG_URL')
 
-
-#获取邮箱地址的 账号和密码
+# 获取邮箱地址的 账号和密码
 MAIL_USERNAME = client.get_value('MAIL_USERNAME')
-MAIL_PASSWORD  = client.get_value('MAIL_PASSWORD')
+MAIL_PASSWORD = client.get_value('MAIL_PASSWORD')
 # print(MAIL_USERNAME,MAIL_PASSWORD)
 # MySQL 账号和密码
 HOSTNAME = client.get_value('HOSTNAME')
@@ -22,5 +23,4 @@ USERNAME = client.get_value('USERNAME')
 PASSWORD = client.get_value('PASSWORD')
 DATABASE = client.get_value('DATABASE')
 
-
-project_name= client.get_value('project_name')
+project_name = client.get_value('project_name')

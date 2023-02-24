@@ -5,7 +5,9 @@
 # @File    : config.py
 # @Software: PyCharm
 # MySQL所在的主机名
-from apollo_config import MAIL_USERNAME, MAIL_PASSWORD,HOSTNAME,USERNAME,PASSWORD,DATABASE
+from config.apollo_config import MAIL_USERNAME, MAIL_PASSWORD,HOSTNAME,USERNAME,PASSWORD,DATABASE
+from tool.LogHandler import log
+log.info("加载apollo的环境变量配置")
 
 HOSTNAME = HOSTNAME
 # MySQL监听的端口号，默认3306
@@ -16,7 +18,7 @@ USERNAME = USERNAME
 PASSWORD =PASSWORD
 # MySQL上创建的数据库名称
 DATABASE = DATABASE
-print("调用MySQL地址")
+
 DB_URI = f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOSTNAME}:{PORT}/{DATABASE}?charset=utf8mb4"
 SQLALCHEMY_DATABASE_URI=DB_URI
 
