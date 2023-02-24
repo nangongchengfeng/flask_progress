@@ -6,13 +6,14 @@
 # @Software: PyCharm
 import string
 import random
-
-from flask import Blueprint, render_template, request, jsonify
+from werkzeug.security import generate_password_hash
+from flask import Blueprint, render_template, request, jsonify, redirect, url_for
 from exts import mail, db
 from flask_mail import Message
-from flask import Flask, current_app
 from tool.LogHandler import log
-from models import EmailCaptchaModel
+from models import EmailCaptchaModel, UserModel
+
+from .forms import RegisterForm
 
 bp = Blueprint("auth", __name__, url_prefix="/auth")
 
@@ -23,11 +24,30 @@ def login():
     pass
 
 
-@bp.route("/register")
+# GET :从服务获取数据
+# POSt ：将客户端的数据提交个服务器
+@bp.route("/register", methods=["POST", "GET"])
 def register():
-    # 验证用户提交邮箱和验证是否正确
-    log.info("Registering")
-    return render_template("register.html")
+    if request.method == "GET":
+
+        log.info("Registering")
+        return render_template("register.html")
+    else:
+        # Post 去请求
+        # 验证用户提交邮箱和验证是否正确
+        # 表单验证：flask-wtf
+        form = RegisterForm(request.form)
+        if form.validate():
+            username = form.username.data
+            password = form.password.data
+            email = form.email.data
+            user = UserModel(email=email, username=username, password=generate_password_hash(password))
+            db.session.add(user)
+            db.session.commit()
+            return redirect(url_for("auth.login"))
+        else:
+            print(form.errors)
+            return redirect(url_for("auth.register"))
 
 
 # 邮箱的验证码
@@ -39,7 +59,9 @@ def get_email_captcha():
     # 4 位： 顺机产生4个数值,字母，数值
     source = string.digits * 4
     captcha = "".join(random.sample(source, 4))
-    message = Message(subject="乘风平台验证码", sender='3063254779@qq.com', recipients=[email], body=f"您的验证码是: {captcha}")
+    # IO操作，INPUT /OUTPUT
+    message = Message(subject="乘风平台验证码", sender='3063254779@qq.com', recipients=[email],
+                      body=f"您的验证码是: {captcha}")
     mail.send(message)
     log.info("Sent email: {} and  captcha : {} ".format(email, captcha))
     emailcaptcha = EmailCaptchaModel(email=email, captcha=captcha)

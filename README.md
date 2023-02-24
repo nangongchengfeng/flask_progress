@@ -20,3 +20,7 @@ flask db upgrade
 而且导入全部和导入一个，结果都是可以对所有的表进行创建。
 
 ```
+## 表单验证：flask-wtf#表单验证：flask-wtf :wtforms
+```bash
+pip install flask-wtf
+```
