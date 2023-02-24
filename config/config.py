@@ -5,24 +5,31 @@
 # @File    : config.py
 # @Software: PyCharm
 # MySQL所在的主机名
-from config.apollo_config import MAIL_USERNAME, MAIL_PASSWORD,HOSTNAME,USERNAME,PASSWORD,DATABASE
+from config.apollo_config import MAIL_USERNAME, MAIL_PASSWORD, HOSTNAME, USERNAME, PASSWORD, DATABASE
 from tool.LogHandler import log
+
 log.info("加载apollo的环境变量配置")
 
-HOSTNAME = HOSTNAME
 # MySQL监听的端口号，默认3306
 PORT = 3306
-# 连接MySQL的用户名，读者用自己设置的
-USERNAME = USERNAME
-# 连接MySQL的密码，读者用自己的
-PASSWORD =PASSWORD
-# MySQL上创建的数据库名称
-DATABASE = DATABASE
+HOSTNAME = '192.168.102.20'
+USERNAME = 'root'
+PASSWORD = '123456'
+DATABASE = 'zhiliaooa'
+
+############
+# HOSTNAME = HOSTNAME
+# # 连接MySQL的用户名，读者用自己设置的
+# USERNAME = USERNAME
+# # 连接MySQL的密码，读者用自己的
+# PASSWORD =PASSWORD
+# # MySQL上创建的数据库名称
+# DATABASE = DATABASE
 
 DB_URI = f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOSTNAME}:{PORT}/{DATABASE}?charset=utf8mb4"
-SQLALCHEMY_DATABASE_URI=DB_URI
+SQLALCHEMY_DATABASE_URI = DB_URI
 
-#邮箱地址
+# 邮箱地址
 MAIL_SERVER = 'smtp.qq.com'
 MAIL_PROT = 25
 MAIL_USE_TLS = True

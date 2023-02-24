@@ -14,4 +14,9 @@ flask db migrate
 迁移数据库
 flask db upgrade
 
+记得
+只需要在 app.py 中导入 models.py 中的类即可。
+
+而且导入全部和导入一个，结果都是可以对所有的表进行创建。
+
 ```

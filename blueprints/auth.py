@@ -7,11 +7,12 @@
 import string
 import random
 
-from flask import Blueprint, render_template, request
-from exts import mail
+from flask import Blueprint, render_template, request, jsonify
+from exts import mail, db
 from flask_mail import Message
 from flask import Flask, current_app
 from tool.LogHandler import log
+from models import EmailCaptchaModel
 
 bp = Blueprint("auth", __name__, url_prefix="/auth")
 
@@ -40,10 +41,14 @@ def get_email_captcha():
     captcha = "".join(random.sample(source, 4))
     message = Message(subject="乘风平台验证码", sender='3063254779@qq.com', recipients=[email], body=f"您的验证码是: {captcha}")
     mail.send(message)
-    print(captcha)
-    #使用数据库存储
-
-    return "发送邮件验证码成功"
+    log.info("Sent email: {} and  captcha : {} ".format(email, captcha))
+    emailcaptcha = EmailCaptchaModel(email=email, captcha=captcha)
+    db.session.add(emailcaptcha)
+    db.session.commit()
+    # 使用数据库存储
+    # Restful API
+    # {'code': '200', 'message': '请求成功'}
+    return jsonify({'code': 200, 'message': '请求成功'})
 
 
 @bp.route("/mail/test")

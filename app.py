@@ -6,10 +6,9 @@ from blueprints.auth import bp
 from exts import db, mail
 from flask_migrate import Migrate
 from tool.LogHandler import log
-
+from models import UserModel,EmailCaptchaModel
 
 app = Flask(__name__)
-
 
 # 导入自定义配置
 app.config.from_object(config)
