@@ -31,6 +31,5 @@ def hello_world():  # put application's code here
 
 # 蓝图  电影模块，音乐模块，读书模块
 if __name__ == '__main__':
-    log.info('我打印了一个日志输出')
     log.info('项目已经启动')
     app.run(host="0.0.0.0", port=5010, debug=True)
