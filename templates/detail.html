@@ -19,7 +19,7 @@
             <hr>
             <p class="question-content">{{ question.content }}</p>
             <hr>
-            <h4 class="comment-group-title">评论（2）：</h4>
+            <h4 class="comment-group-title">评论（{{ question.answers |length }}）：</h4>
             <form action="{{ url_for("qa.answer_public") }}" method="post">
                 <div class="form-group">
                     <input type="text" placeholder="请填写评论" name="content" class="form-control">
@@ -37,8 +37,8 @@
                     <li>
                         <div class="user-info">
                             <img class="avatar" src="{{ url_for("static",filename="images/avatar.jpg") }}" alt="">
-                            <span class="username">{{ answer.username }}</span>
-                            <span class="create-time">{{ answer.creat_time }}</span>
+                            <span class="username">{{ answer.author.username }}</span>
+                            <span class="create-time">{{ answer.create_time }}</span>
                         </div>
                         <p class="comment-content">{{ answer.content }}</p>
                     </li>

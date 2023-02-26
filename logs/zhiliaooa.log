@@ -486,3 +486,52 @@
 2023-02-26 19:33:46.486 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
 2023-02-26 19:33:48.456 DEBUG | [Thread-8] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
 2023-02-26 19:33:48.675 DEBUG | [Thread-9] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:35:18.401 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:35:18.709 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:37:13.320 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:37:23.327 DEBUG | [Thread-7] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:38:14.176 DEBUG | [Thread-12] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
+2023-02-26 19:38:14.422 DEBUG | [Thread-13] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:39:10.957 DEBUG | [Thread-18] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:39:12.547 DEBUG | [Thread-23] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:39:21.820 DEBUG | [Thread-28] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:41:14.573 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:41:14.860 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:41:17.155 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:41:36.447 DEBUG | [Thread-7] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 19:41:37.537 DEBUG | [Thread-10] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:41:40.587 DEBUG | [Thread-15] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:41:41.418 DEBUG | [Thread-20] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 19:41:42.688 DEBUG | [Thread-23] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:41:44.167 DEBUG | [Thread-28] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:41:54.221 DEBUG | [Thread-33] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/logout/  【请求地址】127.0.0.1
+2023-02-26 19:41:54.273 DEBUG | [Thread-34] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:41:55.261 DEBUG | [Thread-39] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:41:56.273 DEBUG | [Thread-44] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
+2023-02-26 19:41:56.290 DEBUG | [Thread-45] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:01.804 DEBUG | [Thread-48] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:02.279 DEBUG | [Thread-49] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:16.708 DEBUG | [Thread-52] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:17.194 DEBUG | [Thread-53] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:24.038 DEBUG | [Thread-56] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:24.523 DEBUG | [Thread-57] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:34.003 DEBUG | [Thread-60] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:34.468 DEBUG | [Thread-61] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:36.949 DEBUG | [Thread-64] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:42:37.353 DEBUG | [Thread-69] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:42:38.668 DEBUG | [Thread-74] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 19:42:38.675 DEBUG | [Thread-75] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:40.504 DEBUG | [Thread-78] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:45.874 DEBUG | [Thread-81] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:45.874 ERROR | [Thread-81] zhiliaooa [46] | auth.py login  {'password': ['密码格式错误']}
+2023-02-26 19:42:45.881 DEBUG | [Thread-82] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:57.722 DEBUG | [Thread-85] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 19:42:58.238 DEBUG | [Thread-86] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 19:42:59.971 DEBUG | [Thread-91] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:43:32.359 DEBUG | [Thread-96] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:47:30.370 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:50:48.050 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:50:48.351 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:50:49.306 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:50:49.607 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:50:50.320 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1

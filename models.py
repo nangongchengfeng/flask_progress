@@ -33,7 +33,7 @@ class QuetionModel(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     title = db.Column(db.String(200), nullable=False)
     content = db.Column(db.Text, nullable=False)
-    create_time  = db.Column(db.DateTime, default=datetime.now)
+    create_time = db.Column(db.DateTime, default=datetime.now)
 
     author_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     author = db.relationship(UserModel, backref='questions')
@@ -43,12 +43,12 @@ class AnswerModel(db.Model):
     __tablename__ = 'anser'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     content = db.Column(db.Text, nullable=False)
-    create_time  = db.Column(db.DateTime, default=datetime.now)
+    create_time = db.Column(db.DateTime, default=datetime.now)
 
-    #外键
+    # 外键
     author_id = db.Column(db.Integer, db.ForeignKey('user.id'))
-    question_id=db.Column(db.Integer, db.ForeignKey('question.id'))
+    question_id = db.Column(db.Integer, db.ForeignKey('question.id'))
 
-    #关系
+    # 关系
     author = db.relationship(UserModel, backref='answers')
-    question=db.relationship(QuetionModel,backref=db.backref('answers',order_by=create_time.desc()))
+    question = db.relationship(QuetionModel, backref=db.backref('answers', order_by=create_time.desc()))
