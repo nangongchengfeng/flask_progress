@@ -470,3 +470,19 @@
 2023-02-26 19:14:14.514 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
 2023-02-26 19:18:59.488 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
 2023-02-26 19:19:04.690 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:31:51.780 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:31:52.139 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:31:53.148 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:31:53.505 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:31:53.541 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:31:58.273 DEBUG | [Thread-9] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
+2023-02-26 19:32:40.062 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:32:40.379 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:32:41.329 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
+2023-02-26 19:32:44.831 DEBUG | [Thread-7] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:32:47.221 DEBUG | [Thread-14] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
+2023-02-26 19:33:45.534 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 19:33:45.851 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 19:33:46.486 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1
+2023-02-26 19:33:48.456 DEBUG | [Thread-8] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】127.0.0.1
+2023-02-26 19:33:48.675 DEBUG | [Thread-9] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】127.0.0.1

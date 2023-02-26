@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{ url_for("static",filename="css/detail.css") }}">
 {% endblock %}
 {% block title %}
-{{ question.title }}
+    {{ question.title }}
 {% endblock %}
 
 
@@ -11,41 +11,39 @@
     <div class="row" style="margin-top: 20px;">
         <div class="col"></div>
         <div class="col-10" style="background-color: #fff;padding: 20px;">
-            <h3 class="page-title">{{question.title}}</h3>
+            <h3 class="page-title">{{ question.title }}</h3>
             <p class="question-info">
-                <span>作者：{{question.author.username}}</span>
-                <span>时间：{{question.create_time}}</span>
+                <span>作者：{{ question.author.username }}</span>
+                <span>时间：{{ question.create_time }}</span>
             </p>
             <hr>
-            <p class="question-content">{{question.content}}</p>
+            <p class="question-content">{{ question.content }}</p>
             <hr>
             <h4 class="comment-group-title">评论（2）：</h4>
-            <form action="#" method="post">
+            <form action="{{ url_for("qa.answer_public") }}" method="post">
                 <div class="form-group">
                     <input type="text" placeholder="请填写评论" name="content" class="form-control">
+                    <input type="hidden" name="question_id" value="{{ question.id }}">
                 </div>
                 <div class="form-group" style="text-align: right;">
                     <button class="btn btn-primary">评论</button>
                 </div>
             </form>
             <ul class="comment-group">
-                <li>
-                    <div class="user-info">
-                        <img class="avatar" src="{{ url_for("static",filename="images/avatar.jpg") }}" alt="">
-                        <span class="username">法外狂徒张三</span>
-                        <span class="create-time">2022年10月30日</span>
-                    </div>
-                    <p class="comment-content">讲得真好！</p>
-                </li>
+                {% for answer in question.answers %}
 
-                <li>
-                    <div class="user-info">
-                        <img class="avatar" src="./static/images/avatar.jpg" alt="">
-                        <span class="username">我方律师张伟</span>
-                        <span class="create-time">2022年10月30日</span>
-                    </div>
-                    <p class="comment-content">我张伟表示不服！</p>
-                </li>
+
+
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="{{ url_for("static",filename="images/avatar.jpg") }}" alt="">
+                            <span class="username">{{ answer.username }}</span>
+                            <span class="create-time">{{ answer.creat_time }}</span>
+                        </div>
+                        <p class="comment-content">{{ answer.content }}</p>
+                    </li>
+
+                {% endfor %}
             </ul>
         </div>
         <div class="col"></div>

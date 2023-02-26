@@ -55,3 +55,8 @@ class LoginForm(wtforms.Form):
 class QuestionForm(wtforms.Form):
     title = wtforms.StringField(validators=[Length(max=100, min=4, message="标题格式错误")])
     content = wtforms.StringField(validators=[Length(min=6, message="内容格式错误")])
+
+
+class AnswerForm(wtforms.Form):
+    content = wtforms.StringField(validators=[Length(min=4, message="内容格式错误")])
+    question_id = wtforms.IntegerField(validators=[InputRequired(message="必须要传入问题id")])
