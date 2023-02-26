@@ -20,7 +20,7 @@
                                  alt="">
                         </div>
                         <div class="question-main">
-                            <div class="question-title"><a href="#">{{ question.title }}</a></div>
+                            <div class="question-title"><a href="{{url_for("qa.qa_detail",qa_id=question.id)}}">{{ question.title }}</a></div>
                             <div class="question-content">{{ question.content }}</div>
                             <div class="question-detail">
                                 <span class="question-author">{{ question.username }}</span>

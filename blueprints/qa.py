@@ -38,3 +38,9 @@ def public_qa():
         else:
             log.error(form.errors)
             return redirect(url_for("qa.public_qa"))
+
+
+@qa.route("/qa/detail/<qa_id>")
+def qa_detail(qa_id):
+    question = QuetionModel.query.get(qa_id)
+    return render_template("detail.html", question=question)
