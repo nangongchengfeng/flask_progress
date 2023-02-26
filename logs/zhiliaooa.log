@@ -85,3 +85,52 @@
 2023-02-26 14:53:14.437 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
 2023-02-26 14:53:24.520 DEBUG | [Thread-2] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
 2023-02-26 14:53:24.520 INFO | [Thread-2] zhiliaooa [33] | auth.py register  Registering
+2023-02-26 15:56:07.199 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 15:56:07.509 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 15:56:08.524 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 15:56:08.804 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 15:56:11.592 DEBUG | [Thread-2] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-26 15:56:11.592 INFO | [Thread-2] zhiliaooa [33] | auth.py register  Registering
+2023-02-26 15:58:20.786 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 15:58:21.067 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 15:58:51.196 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 15:59:17.722 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 15:59:18.001 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 15:59:19.058 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 15:59:19.350 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 15:59:23.158 DEBUG | [Thread-2] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-26 15:59:23.159 INFO | [Thread-2] zhiliaooa [33] | auth.py register  Registering
+2023-02-26 15:59:25.091 DEBUG | [Thread-7] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-26 15:59:25.091 INFO | [Thread-7] zhiliaooa [33] | auth.py register  Registering
+2023-02-26 15:59:30.786 DEBUG | [Thread-12] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/captcha/email  【请求地址】127.0.0.1
+2023-02-26 16:00:26.869 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:00:27.140 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:00:28.070 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:00:28.362 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:00:34.020 DEBUG | [Thread-2] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-26 16:00:34.020 INFO | [Thread-2] zhiliaooa [33] | auth.py register  Registering
+2023-02-26 16:00:36.674 DEBUG | [Thread-7] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/captcha/email  【请求地址】127.0.0.1
+2023-02-26 16:03:53.570 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:03:53.869 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:04:35.204 DEBUG | [Thread-2] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-26 16:04:35.204 INFO | [Thread-2] zhiliaooa [33] | auth.py register  Registering
+2023-02-26 16:08:02.491 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:08:02.768 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:08:39.084 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:08:39.368 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:08:51.953 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:08:52.232 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:10:34.031 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:10:34.313 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:10:58.170 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:10:58.445 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:11:46.286 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:11:46.577 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:11:56.016 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:11:56.329 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:12:06.781 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:12:07.074 INFO | [MainThread] zhiliaooa [41] | app.py <module>  项目已经启动
+2023-02-26 16:12:11.577 DEBUG | [Thread-2] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-26 16:12:11.605 INFO | [Thread-2] zhiliaooa [35] | auth.py register  Registering
+2023-02-26 16:12:14.441 DEBUG | [Thread-7] zhiliaooa [31] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/captcha/email  【请求地址】127.0.0.1
+2023-02-26 16:12:14.444 INFO | [Thread-7] zhiliaooa [76] | auth.py get_email_captcha  Sent email: 1794748404@qq.com and  captcha : 7156 

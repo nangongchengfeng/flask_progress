@@ -6,8 +6,10 @@
 # @Software: PyCharm
 import string
 import random
+from threading import Thread
+
 from werkzeug.security import generate_password_hash
-from flask import Blueprint, render_template, request, jsonify, redirect, url_for
+from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app
 from exts import mail, db
 from flask_mail import Message
 from tool.LogHandler import log
@@ -52,6 +54,11 @@ def register():
             return redirect(url_for("auth.register"))
 
 
+def send_async_email(app, msg):
+    with app.app_context():
+        mail.send(msg)
+
+
 # 邮箱的验证码
 @bp.route("/captcha/email")
 def get_email_captcha():
@@ -62,9 +69,12 @@ def get_email_captcha():
     source = string.digits * 4
     captcha = "".join(random.sample(source, 4))
     # IO操作，INPUT /OUTPUT
+    app = current_app._get_current_object()
     message = Message(subject="乘风平台验证码", sender='3063254779@qq.com', recipients=[email],
                       body=f"您的验证码是: {captcha}")
-    mail.send(message)
+    thread = Thread(target=send_async_email, args=[app, message])
+    thread.start()
+    # mail.send(message)
 
     log.info("Sent email: {} and  captcha : {} ".format(email, captcha))
     emailcaptcha = EmailCaptchaModel(email=email, captcha=captcha)
