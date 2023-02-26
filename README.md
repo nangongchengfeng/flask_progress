@@ -3,7 +3,10 @@ flask_progress
 
 # Flask小项目
 
+![1677412497620](H:\GiHUB_CODE\flask_progress\images\1677412497620.png)
+
 ## flask-migrate
+
 ```bash
 pip3 install Flask-Migrate
 
@@ -20,7 +23,8 @@ flask db upgrade
 而且导入全部和导入一个，结果都是可以对所有的表进行创建。
 
 ```
-## 表单验证：flask-wtf#表单验证：flask-wtf :wtforms
+## 表单验证：flask-wtf
+表单验证：flask-wtf :wtforms
 ```bash
 pip install flask-wtf
 ```
