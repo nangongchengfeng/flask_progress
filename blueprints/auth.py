@@ -9,7 +9,7 @@ import random
 from threading import Thread
 
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app, session
+from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app, session, g
 from exts import mail, db
 from flask_mail import Message
 from tool.LogHandler import log
@@ -23,6 +23,8 @@ bp = Blueprint("auth", __name__, url_prefix="/auth")
 @bp.route("/login", methods=["POST", "GET"])
 def login():
     if request.method == "GET":
+        if g:
+            return redirect("/")
         return render_template("login.html")
     else:
         form = LoginForm(request.form)
@@ -44,7 +46,8 @@ def login():
             log.error(form.errors)
             return redirect(url_for("auth.login"))
 
-#注销
+
+# 注销
 @bp.route('/logout/', methods=['GET'])
 def logout():
     # session.pop('username', None)
