@@ -6,6 +6,7 @@
 # @Software: PyCharm
 from flask import Blueprint, request, render_template, g, redirect, url_for
 
+from decorators import login_requir
 from exts import db
 from tool.LogHandler import log
 from .forms import QuestionForm
@@ -20,6 +21,7 @@ def index():
 
 
 @qa.route("/qa/public", methods=["GET", "POST"])
+@login_requir
 def public_qa():
     if request.method == "GET":
         return render_template('public_question.html')
