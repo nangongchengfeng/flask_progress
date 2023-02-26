@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from config import config
 from blueprints.qa import qa
 from blueprints.auth import bp
@@ -6,7 +6,7 @@ from blueprints.auth import bp
 from exts import db, mail
 from flask_migrate import Migrate
 from tool.LogHandler import log
-from models import UserModel,EmailCaptchaModel
+from models import UserModel, EmailCaptchaModel
 
 app = Flask(__name__)
 
@@ -21,6 +21,12 @@ migrate = Migrate(app, db)
 # 蓝图注册
 app.register_blueprint(qa)
 app.register_blueprint(bp)
+
+
+# 每一次请求前执行
+@app.before_request
+def log_each_request():
+    log.debug('【请求方法】{}【请求路径】{}【请求地址】{}'.format(request.method, request.path, request.remote_addr))
 
 
 @app.route('/')

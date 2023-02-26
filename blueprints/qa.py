@@ -12,4 +12,4 @@ qa = Blueprint("qa", __name__, url_prefix="/")
 @qa.route("/")
 def all_list():
     # TODO document why this method is empty
-    pass
+    return "success"
