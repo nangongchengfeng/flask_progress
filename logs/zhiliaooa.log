@@ -224,3 +224,5 @@
 2023-02-26 16:35:14.262 DEBUG | [Thread-3] zhiliaooa [34] | app.py log_each_request  【请求方法】GET  【请求路径】/auth//logout/  【请求地址】127.0.0.1
 2023-02-26 16:35:14.269 DEBUG | [Thread-4] zhiliaooa [34] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/logout/  【请求地址】127.0.0.1
 2023-02-26 16:35:14.276 DEBUG | [Thread-5] zhiliaooa [34] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 16:39:10.734 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 16:39:11.016 INFO | [MainThread] zhiliaooa [45] | app.py <module>  项目已经启动
