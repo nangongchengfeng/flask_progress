@@ -11,13 +11,14 @@ from exts import db
 from tool.LogHandler import log
 from .forms import QuestionForm
 from models import QuetionModel
+
 qa = Blueprint("qa", __name__, url_prefix="/")
 
 
 @qa.route("/")
 def index():
-    # TODO document why this method is empty
-    return "success"
+    questions = QuetionModel.query.order_by(QuetionModel.create_time.desc()).all()
+    return render_template("index.html", questions=questions)
 
 
 @qa.route("/qa/public", methods=["GET", "POST"])
