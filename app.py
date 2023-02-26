@@ -9,6 +9,9 @@ from tool.LogHandler import log
 from models import UserModel, EmailCaptchaModel
 
 app = Flask(__name__)
+app.secret_key = 'CSaSvOU6h1iMb15s+GsV5TuKYSbREcBZ/g1Gjh9nCec='
+#设置session的过期时间
+app.config['PERMANENT_SESSION_LIFETIME'] = 1
 
 # 导入自定义配置
 app.config.from_object(config)

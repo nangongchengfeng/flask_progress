@@ -45,3 +45,8 @@ class RegisterForm(wtforms.Form):
             # db.session.commit()
             captcha_model.used = 1
             db.session.commit()
+
+
+class LoginForm(wtforms.Form):
+    email = wtforms.StringField(validators=[Email(message="邮箱格式错误！")])
+    password = wtforms.StringField(validators=[Length(min=6, max=20, message="密码格式错误")])

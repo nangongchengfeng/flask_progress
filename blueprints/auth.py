@@ -8,22 +8,48 @@ import string
 import random
 from threading import Thread
 
-from werkzeug.security import generate_password_hash
-from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app, session
 from exts import mail, db
 from flask_mail import Message
 from tool.LogHandler import log
 from models import EmailCaptchaModel, UserModel
 
-from .forms import RegisterForm
+from .forms import RegisterForm, LoginForm
 
 bp = Blueprint("auth", __name__, url_prefix="/auth")
 
 
-@bp.route("/login")
+@bp.route("/login", methods=["POST", "GET"])
 def login():
-    # TODO document why this method is empty
-    pass
+    if request.method == "GET":
+        return render_template("login.html")
+    else:
+        form = LoginForm(request.form)
+        if form.validate():
+            email = form.email.data
+            password = form.password.data
+            user = UserModel.query.filter_by(email=email).first()
+            if not user:
+                return jsonify({'code': 200, 'message': '用户不存在'})
+            if check_password_hash(user.password, password):
+                # return jsonify({'code': 200, 'message': '用户登录成功'})
+                # cookie  不适合存储太多数据，只适合存储少量的数据
+                # seesion
+                session["user_id"] = user.id
+                return redirect("/")
+            else:
+                return redirect(url_for("auth.login"))
+        else:
+            log.error(form.errors)
+            return redirect(url_for("auth.login"))
+
+#注销
+@bp.route('/logout/', methods=['GET'])
+def logout():
+    # session.pop('username', None)
+    session.clear()
+    return redirect(url_for('auth.login'))
 
 
 # GET :从服务获取数据
