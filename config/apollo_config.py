@@ -6,8 +6,10 @@
 # @Software: PyCharm
 import os
 
+
 from pyapollos import ApolloClient
 
+print("加载apollo配置")
 APOLLO_CONFIG_URL = "config-server-dev.ownit.top"
 client = ApolloClient(app_id="zhiliaooa", cluster="default",
                       config_server_url='http://' + APOLLO_CONFIG_URL)

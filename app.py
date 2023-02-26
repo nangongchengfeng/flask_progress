@@ -26,7 +26,9 @@ app.register_blueprint(bp)
 # 每一次请求前执行
 @app.before_request
 def log_each_request():
-    log.debug('【请求方法】{}【请求路径】{}【请求地址】{}'.format(request.method, request.path, request.remote_addr))
+    path=request.path
+    if "static" not in path:
+        log.debug('【请求方法】{}  【请求路径】{}  【请求地址】{}'.format(request.method, request.path, request.remote_addr))
 
 
 @app.route('/')
