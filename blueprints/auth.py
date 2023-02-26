@@ -23,7 +23,7 @@ bp = Blueprint("auth", __name__, url_prefix="/auth")
 @bp.route("/login", methods=["POST", "GET"])
 def login():
     if request.method == "GET":
-        if g:
+        if g is None:
             return redirect("/")
         return render_template("login.html")
     else:
@@ -52,7 +52,7 @@ def login():
 def logout():
     # session.pop('username', None)
     session.clear()
-    return redirect(url_for('auth.login'))
+    return redirect("/")
 
 
 # GET :从服务获取数据
@@ -60,7 +60,8 @@ def logout():
 @bp.route("/register", methods=["POST", "GET"])
 def register():
     if request.method == "GET":
-
+        if g is None:
+            return redirect("/")
         log.info("Registering")
         return render_template("register.html")
     else:
