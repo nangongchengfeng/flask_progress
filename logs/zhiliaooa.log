@@ -314,3 +314,50 @@
 2023-02-26 17:13:20.421 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
 2023-02-26 17:13:20.736 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
 2023-02-26 17:13:29.293 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:15:22.025 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:15:22.315 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:15:24.460 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:15:24.812 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:15:34.113 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:15:34.410 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:15:47.908 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:15:48.213 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:16:27.667 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:16:27.969 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:17:40.540 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:18:26.822 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:18:42.146 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:18:51.382 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:26:14.454 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:26:57.713 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:26:58.035 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:26:58.980 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:26:59.298 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:27:08.486 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:27:13.440 DEBUG | [Thread-5] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 17:27:23.941 DEBUG | [Thread-10] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 17:27:28.833 DEBUG | [Thread-13] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】127.0.0.1
+2023-02-26 17:27:30.154 DEBUG | [Thread-14] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】127.0.0.1
+2023-02-26 17:27:35.401 DEBUG | [Thread-15] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:27:59.888 DEBUG | [Thread-18] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:27:59.927 ERROR | [Thread-18] zhiliaooa [36] | qa.py public_qa  {'title': ['标题格式错误']}
+2023-02-26 17:27:59.963 DEBUG | [Thread-19] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:28:29.213 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:28:29.520 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:28:31.346 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:28:57.710 DEBUG | [Thread-5] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:30:31.907 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:30:32.254 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:31:30.479 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:31:39.603 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:32:45.776 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:32:47.843 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:32:48.110 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:32:49.215 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:32:53.124 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:33:16.286 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:33:16.584 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:33:17.541 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-26 17:33:17.847 INFO | [MainThread] zhiliaooa [57] | app.py <module>  项目已经启动
+2023-02-26 17:33:25.257 DEBUG | [Thread-2] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
+2023-02-26 17:33:28.606 DEBUG | [Thread-5] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/qa/public  【请求地址】127.0.0.1
