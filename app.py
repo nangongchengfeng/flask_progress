@@ -11,7 +11,7 @@ from models import UserModel, EmailCaptchaModel
 app = Flask(__name__)
 app.secret_key = 'CSaSvOU6h1iMb15s+GsV5TuKYSbREcBZ/g1Gjh9nCec='
 # 设置session的过期时间
-app.config['PERMANENT_SESSION_LIFETIME'] = 1
+# app.config['PERMANENT_SESSION_LIFETIME'] = 1
 
 # 导入自定义配置
 app.config.from_object(config)
@@ -46,9 +46,10 @@ def my_session():
         setattr(g, "user", None)
 
 
-@app.route('/')
-def hello_world():  # put application's code here
-    return 'Hello World!'
+# 上下文处理器 ,返回所有模板可以使用
+@app.context_processor
+def my_context_processor():
+    return {"user": g.user}
 
 
 # 蓝图  电影模块，音乐模块，读书模块
