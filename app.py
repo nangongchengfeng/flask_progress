@@ -1,4 +1,4 @@
-from flask import Flask, request, session, g
+from flask import Flask, request, session, g, make_response, jsonify
 from config import config
 from blueprints.qa import qa
 from blueprints.auth import bp
@@ -38,12 +38,30 @@ def log_each_request():
 
 @app.before_request
 def my_session():
-    user_id = session.get('user_id')
-    if user_id:
-        user = UserModel.query.get(user_id)
-        setattr(g, "user", user)
+    if request.endpoint in ("auth", "static"):
+        return
     else:
-        setattr(g, "user", None)
+        user_id = session.get('user_id')
+        if user_id:
+            user = UserModel.query.get(user_id)
+            setattr(g, "user", user)
+        else:
+            setattr(g, "user", None)
+
+
+@app.errorhandler(404)
+def not_found(error):
+    return make_response(jsonify({'code': '404', 'msg': '接口不存在'}), 404)
+
+
+@app.errorhandler(400)
+def par_err(error):
+    return make_response(jsonify({'code': '400', 'msg': '请求参数不合法'}), 400)
+
+
+@app.route('/actuator/health', methods=['GET', 'HEAD'])
+def health():
+    return jsonify({'online': True})
 
 
 # 上下文处理器 ,返回所有模板可以使用

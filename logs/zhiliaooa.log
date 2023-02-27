@@ -539,3 +539,48 @@
 2023-02-26 19:51:27.340 DEBUG | [Thread-12] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】127.0.0.1
 2023-02-26 19:51:30.643 DEBUG | [Thread-15] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/search  【请求地址】127.0.0.1
 2023-02-26 19:51:37.741 DEBUG | [Thread-19] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/search  【请求地址】127.0.0.1
+2023-02-27 09:27:16.668 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-27 09:27:17.104 INFO | [MainThread] zhiliaooa [60] | app.py <module>  项目已经启动
+2023-02-27 09:27:19.174 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-27 09:27:19.576 INFO | [MainThread] zhiliaooa [60] | app.py <module>  项目已经启动
+2023-02-27 09:27:21.202 DEBUG | [Thread-3] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-02-27 09:27:23.293 DEBUG | [Thread-7] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-02-27 09:27:23.299 DEBUG | [Thread-8] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-02-27 09:27:24.923 DEBUG | [Thread-12] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-02-27 09:27:24.928 DEBUG | [Thread-11] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-02-27 09:27:25.671 DEBUG | [Thread-15] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-02-27 09:27:27.123 DEBUG | [Thread-20] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】192.168.96.19
+2023-02-27 09:27:28.152 DEBUG | [Thread-25] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】192.168.96.19
+2023-02-27 09:27:28.157 DEBUG | [Thread-26] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-02-27 09:27:29.438 DEBUG | [Thread-30] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-02-27 09:27:29.440 ERROR | [Thread-30] zhiliaooa [46] | auth.py login  {'email': ['邮箱格式错误！'], 'password': ['密码格式错误']}
+2023-02-27 09:27:29.446 DEBUG | [Thread-29] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-02-27 09:29:57.008 DEBUG | [Thread-34] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-02-27 09:29:57.178 DEBUG | [Thread-33] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-02-27 09:30:00.644 DEBUG | [Thread-39] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-02-27 09:30:01.597 DEBUG | [Thread-42] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-02-27 09:30:02.010 DEBUG | [Thread-45] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-02-27 09:30:03.424 DEBUG | [Thread-51] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】192.168.96.19
+2023-02-27 09:30:07.191 DEBUG | [Thread-56] zhiliaooa [36] | app.py log_each_request  【请求方法】POST  【请求路径】/answer/public  【请求地址】192.168.96.19
+2023-02-27 09:30:07.286 DEBUG | [Thread-55] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】192.168.96.19
+2023-02-27 09:30:23.312 DEBUG | [Thread-61] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/search  【请求地址】192.168.96.19
+2023-02-27 09:30:26.407 DEBUG | [Thread-65] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-02-27 09:30:27.734 DEBUG | [Thread-68] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-02-27 09:30:34.121 DEBUG | [Thread-73] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/detail/1  【请求地址】192.168.96.19
+2023-02-27 09:30:44.334 DEBUG | [Thread-78] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-02-27 09:30:47.195 DEBUG | [Thread-84] zhiliaooa [36] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】127.0.0.1
+2023-02-27 09:30:47.195 INFO | [Thread-84] zhiliaooa [65] | auth.py register  Registering
+2023-02-27 09:39:39.779 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-27 09:39:40.168 INFO | [MainThread] zhiliaooa [60] | app.py <module>  项目已经启动
+2023-02-27 09:39:45.286 INFO | [Thread-5] zhiliaooa [65] | auth.py register  Registering
+2023-02-27 09:39:59.944 ERROR | [Thread-17] zhiliaooa [46] | auth.py login  {'password': ['密码格式错误']}
+2023-02-27 09:40:05.188 ERROR | [Thread-21] zhiliaooa [46] | auth.py login  {'email': ['邮箱格式错误！'], 'password': ['密码格式错误']}
+2023-02-27 11:24:41.993 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-27 11:24:42.377 INFO | [MainThread] zhiliaooa [75] | app.py <module>  项目已经启动
+2023-02-27 11:25:02.008 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-27 11:25:02.432 INFO | [MainThread] zhiliaooa [75] | app.py <module>  项目已经启动
+2023-02-27 11:25:04.154 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-27 11:25:04.549 INFO | [MainThread] zhiliaooa [75] | app.py <module>  项目已经启动
+2023-02-27 11:25:57.941 ERROR | [Thread-23] zhiliaooa [46] | auth.py login  {'email': ['邮箱格式错误！'], 'password': ['密码格式错误']}
+2023-02-27 11:26:07.500 INFO | [Thread-52] zhiliaooa [65] | auth.py register  Registering
+2023-02-27 11:26:08.560 INFO | [Thread-60] zhiliaooa [65] | auth.py register  Registering
