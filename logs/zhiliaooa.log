@@ -584,3 +584,13 @@
 2023-02-27 11:25:57.941 ERROR | [Thread-23] zhiliaooa [46] | auth.py login  {'email': ['邮箱格式错误！'], 'password': ['密码格式错误']}
 2023-02-27 11:26:07.500 INFO | [Thread-52] zhiliaooa [65] | auth.py register  Registering
 2023-02-27 11:26:08.560 INFO | [Thread-60] zhiliaooa [65] | auth.py register  Registering
+2023-02-28 11:22:12.652 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 11:22:13.085 INFO | [MainThread] zhiliaooa [76] | app.py <module>  项目已经启动
+2023-02-28 11:22:23.578 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 11:25:46.308 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 11:30:45.215 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 11:30:50.476 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 14:00:16.531 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 14:00:17.433 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 14:00:28.071 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-02-28 14:00:28.957 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
