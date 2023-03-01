@@ -9,7 +9,7 @@ import random
 from threading import Thread
 
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app, session, g
+from flask import Blueprint, render_template, request, jsonify, redirect, url_for, current_app, session, g, flash
 from exts import mail, db
 from flask_mail import Message
 from tool.LogHandler import log
@@ -39,6 +39,7 @@ def login():
                 # cookie  不适合存储太多数据，只适合存储少量的数据
                 # seesion
                 session["user_id"] = user.id
+                flash(f"用户：{user.username} 登录成功")
                 return redirect("/")
             else:
                 return redirect(url_for("auth.login"))

@@ -1,3 +1,26 @@
+function validateEmail() {
+    var email = document.getElementById("email").value;
+    var error = document.getElementById("error");
+
+    // 正则表达式验证邮件地址是否符合标准
+    var emailRegex = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-])+/
+    if (!emailRegex.test(email)) {
+        error.innerHTML = "请输入有效的邮件地址";
+        return false;
+    }
+
+    // 验证邮件地址是否为空
+    if (email == "") {
+        error.innerHTML = "邮件地址不能为空";
+        return false;
+    }
+
+    // 验证通过，清空错误提示信息
+    error.innerHTML = "";
+    return true;
+}
+
+
 function bindEmailCaptchaClick() {
     $("#captcha-btn").click(function (event) {
         // $this：代表的是当前按钮的jquery对象
@@ -45,5 +68,6 @@ function bindEmailCaptchaClick() {
 
 // 整个网页都加载完毕后再执行的
 $(function () {
+
     bindEmailCaptchaClick();
 });

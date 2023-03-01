@@ -594,3 +594,52 @@
 2023-02-28 14:00:17.433 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
 2023-02-28 14:00:28.071 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
 2023-02-28 14:00:28.957 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:19:59.082 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:20:11.194 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:20:18.793 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:20:19.171 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:20:20.838 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:20:21.269 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:53:30.530 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:53:30.912 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:54:06.939 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:54:07.318 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:56:04.065 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:56:04.452 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:56:17.268 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:56:17.696 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:56:31.577 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:56:31.964 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 09:56:44.763 INFO | [Thread-13] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 09:57:17.637 ERROR | [Thread-26] zhiliaooa [47] | auth.py login  {'password': ['密码格式错误']}
+2023-03-01 09:58:36.251 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 09:58:36.785 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:00:58.428 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:00:58.822 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:01:00.392 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:01:00.910 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:01:45.655 INFO | [Thread-28] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:01:56.643 INFO | [Thread-33] zhiliaooa [110] | auth.py get_email_captcha  Sent email: 1794748404@qq.c22 and  captcha : 8350 
+2023-03-01 10:03:52.953 INFO | [Thread-35] zhiliaooa [110] | auth.py get_email_captcha  Sent email: 1794748404qq.c22 and  captcha : 8472 
+2023-03-01 10:09:23.565 INFO | [Thread-37] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:09:26.717 INFO | [Thread-42] zhiliaooa [110] | auth.py get_email_captcha  Sent email:  and  captcha : 7110 
+2023-03-01 10:12:48.728 INFO | [Thread-44] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:13:06.864 INFO | [Thread-49] zhiliaooa [110] | auth.py get_email_captcha  Sent email: 111 and  captcha : 2129 
+2023-03-01 10:14:28.424 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:14:28.812 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:14:30.400 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:14:30.863 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:14:30.930 INFO | [Thread-2] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:15:41.541 INFO | [Thread-7] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:16:08.210 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:16:08.636 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:16:10.199 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:16:10.600 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:16:10.759 INFO | [Thread-2] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:16:11.784 INFO | [Thread-7] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:17:14.016 INFO | [Thread-12] zhiliaooa [66] | auth.py register  Registering
+2023-03-01 10:19:49.053 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:19:49.431 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:19:50.965 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-01 10:19:51.359 INFO | [MainThread] zhiliaooa [79] | app.py <module>  项目已经启动
+2023-03-01 10:19:55.835 INFO | [Thread-2] zhiliaooa [66] | auth.py register  Registering
