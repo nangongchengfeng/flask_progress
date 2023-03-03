@@ -7,8 +7,10 @@ from exts import db, mail
 from flask_migrate import Migrate
 from tool.LogHandler import log
 from models import UserModel, EmailCaptchaModel
+from flask_cors import CORS
 
 app = Flask(__name__)
+cors = CORS(app, supports_credentials=True)
 app.secret_key = 'CSaSvOU6h1iMb15s+GsV5TuKYSbREcBZ/g1Gjh9nCec='
 # 设置session的过期时间
 # app.config['PERMANENT_SESSION_LIFETIME'] = 1
@@ -25,6 +27,7 @@ migrate = Migrate(app, db)
 # 蓝图注册
 app.register_blueprint(qa)
 app.register_blueprint(bp)
+
 
 
 # 钩子函数
@@ -72,6 +75,19 @@ def my_context_processor():
 
 
 
+@app.after_request
+def after(resp):
+    '''
+    被after_request钩子函数装饰过的视图函数
+    ，会在请求得到响应后返回给用户前调用，也就是说，这个时候，
+    请求已经被app.route装饰的函数响应过了，已经形成了response，这个时
+    候我们可以对response进行一些列操作，我们在这个钩子函数中添加headers，所有的url跨域请求都会允许！！！
+    '''
+    resp = make_response(resp)
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    resp.headers['Access-Control-Allow-Methods'] = 'GET,POST'
+    resp.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
+    return resp
 
 
 # 蓝图  电影模块，音乐模块，读书模块
