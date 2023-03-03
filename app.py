@@ -1,3 +1,5 @@
+import traceback
+
 from flask import Flask, request, session, g, make_response, jsonify
 from config import config
 from blueprints.qa import qa
@@ -21,13 +23,25 @@ app.config.from_object(config)
 db.init_app(app)
 mail.init_app(app)
 
+
+def set_global_exception_handler(app):
+    @app.errorhandler(Exception)
+    def unhandled_exception(e):
+        response = dict()
+        error_message = traceback.format_exc()
+        app.logger.error("Caught Exception: {}".format(error_message))  # or whatever logger you use
+        response["errorMessage"] = error_message
+        log.error(response)
+        # return response, 500
+
+
+# set_global_exception_handler(app)
 # 数据库迁移
 migrate = Migrate(app, db)
 ################################################
 # 蓝图注册
 app.register_blueprint(qa)
 app.register_blueprint(bp)
-
 
 
 # 钩子函数
@@ -53,6 +67,11 @@ def my_session():
             setattr(g, "user", None)
 
 
+@app.errorhandler(Exception)
+def handle_error(Exception):
+    log.error(f"Caught Exception: {Exception}")
+
+
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'code': '404', 'msg': '接口不存在'}), 404)
@@ -72,7 +91,6 @@ def health():
 @app.context_processor
 def my_context_processor():
     return {"user": g.user}
-
 
 
 @app.after_request

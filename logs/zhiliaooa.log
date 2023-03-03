@@ -51,3 +51,54 @@
 2023-03-03 11:00:58.610 ERROR | [Thread-17] zhiliaooa [32] | decorators.py get_except  index  方法出现异常,异常原因:index() missing 1 required positional argument: 'num'
 2023-03-03 11:01:06.908 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
 2023-03-03 11:01:07.299 INFO | [MainThread] zhiliaooa [95] | app.py <module>  项目已经启动
+2023-03-03 11:03:52.662 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:03:53.052 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:03:54.640 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:03:55.044 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:04:23.688 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:04:24.072 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:04:25.641 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:04:26.046 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:05:04.860 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:05:05.242 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:05:06.857 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:05:07.238 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:05:18.092 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:05:18.504 INFO | [MainThread] zhiliaooa [98] | app.py <module>  项目已经启动
+2023-03-03 11:07:46.172 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:07:46.594 INFO | [MainThread] zhiliaooa [106] | app.py <module>  项目已经启动
+2023-03-03 11:08:13.064 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:08:13.456 INFO | [MainThread] zhiliaooa [111] | app.py <module>  项目已经启动
+2023-03-03 11:08:16.807 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:08:17.186 INFO | [MainThread] zhiliaooa [113] | app.py <module>  项目已经启动
+2023-03-03 11:09:31.072 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:09:31.452 INFO | [MainThread] zhiliaooa [113] | app.py <module>  项目已经启动
+2023-03-03 11:09:33.022 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:09:33.407 INFO | [MainThread] zhiliaooa [113] | app.py <module>  项目已经启动
+2023-03-03 11:10:21.430 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:10:21.826 INFO | [MainThread] zhiliaooa [114] | app.py <module>  项目已经启动
+2023-03-03 11:10:25.895 ERROR | [Thread-2] zhiliaooa [34] | app.py unhandled_exception  {'errorMessage': 'Traceback (most recent call last):\n  File "E:\\Code\\GitHUB_CODE\\flask_progress\\venv\\lib\\site-packages\\flask\\app.py", line 1823, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "E:\\Code\\GitHUB_CODE\\flask_progress\\venv\\lib\\site-packages\\flask\\app.py", line 1799, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\nTypeError: index() missing 1 required positional argument: \'num\'\n'}
+2023-03-03 11:13:50.006 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:13:50.402 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:13:52.551 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:13:53.052 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:13:54.653 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:13:55.091 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:14:29.648 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:14:30.050 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:14:31.642 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:14:32.032 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:14:35.450 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:15:09.351 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:15:09.726 INFO | [MainThread] zhiliaooa [114] | app.py <module>  项目已经启动
+2023-03-03 11:15:13.375 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:15:13.876 INFO | [MainThread] zhiliaooa [114] | app.py <module>  项目已经启动
+2023-03-03 11:15:15.545 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:15:15.935 INFO | [MainThread] zhiliaooa [114] | app.py <module>  项目已经启动
+2023-03-03 11:15:17.457 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:16:21.732 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:16:22.205 INFO | [MainThread] zhiliaooa [114] | app.py <module>  项目已经启动
+2023-03-03 11:16:24.490 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:16:24.885 INFO | [MainThread] zhiliaooa [113] | app.py <module>  项目已经启动
+2023-03-03 11:16:28.125 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:16:28.125 ERROR | [Thread-2] zhiliaooa [72] | app.py handle_error  Caught Exception: index() missing 1 required positional argument: 'num'
