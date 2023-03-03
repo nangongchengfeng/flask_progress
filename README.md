@@ -1,9 +1,9 @@
 # flask_progress
-flask_progress
+
 
 # Flask小项目
 
-![1677412497620](H:\GiHUB_CODE\flask_progress\images\1677412497620.png)
+![1677412497620](images/1677412497620.png)
 
 ## flask-migrate
 
