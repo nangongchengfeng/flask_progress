@@ -6,7 +6,7 @@
 # @Software: PyCharm
 from flask import Blueprint, request, render_template, g, redirect, url_for
 
-from decorators import login_requir
+from decorators import login_requir, catch_exception
 from exts import db
 from tool.LogHandler import log
 from .forms import QuestionForm, AnswerForm
@@ -16,6 +16,7 @@ qa = Blueprint("qa", __name__, url_prefix="/")
 
 
 @qa.route("/")
+@catch_exception
 def index():
     questions = QuetionModel.query.order_by(QuetionModel.create_time.desc()).all()
     return render_template("index.html", questions=questions)

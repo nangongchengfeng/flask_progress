@@ -17,3 +17,18 @@ def login_requir(func):
             return redirect(url_for("auth.login"))  # 没有登录就跳转到登录路由下
 
     return inner
+
+from functools import wraps
+
+from tool.LogHandler import log, ERROR
+
+
+def catch_exception(func):
+    @wraps(func)
+    def get_except(*args, **kw):
+        try:
+            return func(*args, **kw)
+        except Exception as e:
+            log.error(f'{func.__name__}  方法出现异常,异常原因:{e}')
+
+    return get_except
