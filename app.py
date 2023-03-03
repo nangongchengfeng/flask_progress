@@ -60,9 +60,11 @@ def my_session():
         return
     else:
         user_id = session.get('user_id')
+        print(session,user_id)
         if user_id:
             user = UserModel.query.get(user_id)
             setattr(g, "user", user)
+
         else:
             setattr(g, "user", None)
 

@@ -17,7 +17,7 @@ qa = Blueprint("qa", __name__, url_prefix="/")
 
 @qa.route("/")
 # @catch_exception
-def index(num):
+def index():
     questions = QuetionModel.query.order_by(QuetionModel.create_time.desc()).all()
     return render_template("index.html", questions=questions)
 

@@ -102,3 +102,43 @@
 2023-03-03 11:16:24.885 INFO | [MainThread] zhiliaooa [113] | app.py <module>  项目已经启动
 2023-03-03 11:16:28.125 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
 2023-03-03 11:16:28.125 ERROR | [Thread-2] zhiliaooa [72] | app.py handle_error  Caught Exception: index() missing 1 required positional argument: 'num'
+2023-03-03 11:43:33.335 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:43:33.740 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:43:35.330 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:43:35.747 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:43:40.347 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:43:40.729 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:43:43.048 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:43:43.049 ERROR | [Thread-2] zhiliaooa [74] | app.py handle_error  Caught Exception: index() missing 1 required positional argument: 'num'
+2023-03-03 11:44:03.895 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:44:04.297 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
+2023-03-03 11:44:04.649 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:44:29.171 DEBUG | [Thread-7] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-03-03 11:44:31.840 DEBUG | [Thread-10] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】192.168.96.19
+2023-03-03 11:44:31.840 INFO | [Thread-10] zhiliaooa [66] | auth.py register  Registering
+2023-03-03 11:44:39.759 DEBUG | [Thread-15] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/register  【请求地址】192.168.96.19
+2023-03-03 11:44:39.759 INFO | [Thread-15] zhiliaooa [66] | auth.py register  Registering
+2023-03-03 11:44:41.401 DEBUG | [Thread-20] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-03-03 11:44:49.985 DEBUG | [Thread-23] zhiliaooa [54] | app.py log_each_request  【请求方法】POST  【请求路径】/auth/login  【请求地址】192.168.96.19
+2023-03-03 11:44:50.212 DEBUG | [Thread-24] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:45:00.035 DEBUG | [Thread-29] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:45:03.080 DEBUG | [Thread-34] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-03-03 11:45:04.129 DEBUG | [Thread-37] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:46:17.134 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:46:17.515 INFO | [MainThread] zhiliaooa [116] | app.py <module>  项目已经启动
+2023-03-03 11:46:19.124 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:46:19.513 INFO | [MainThread] zhiliaooa [116] | app.py <module>  项目已经启动
+2023-03-03 11:46:21.627 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/  【请求地址】192.168.96.19
+2023-03-03 11:46:52.816 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:46:53.209 INFO | [MainThread] zhiliaooa [116] | app.py <module>  项目已经启动
+2023-03-03 11:46:55.605 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-03-03 11:47:28.867 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:47:29.246 INFO | [MainThread] zhiliaooa [116] | app.py <module>  项目已经启动
+2023-03-03 11:47:30.839 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-03-03 11:47:40.988 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:47:41.399 INFO | [MainThread] zhiliaooa [116] | app.py <module>  项目已经启动
+2023-03-03 11:47:41.766 DEBUG | [Thread-2] zhiliaooa [54] | app.py log_each_request  【请求方法】GET  【请求路径】/qa/public  【请求地址】192.168.96.19
+2023-03-03 11:48:22.972 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:48:23.355 INFO | [MainThread] zhiliaooa [116] | app.py <module>  项目已经启动
+2023-03-03 11:48:34.279 INFO | [MainThread] zhiliaooa [11] | config.py <module>  加载config的环境变量配置
+2023-03-03 11:48:34.663 INFO | [MainThread] zhiliaooa [115] | app.py <module>  项目已经启动
